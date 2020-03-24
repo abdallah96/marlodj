@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Confirmation">
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demande chéquier"
+        android:textColor="@color/colorGreen"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formulaire"
+        android:textColor="@color/colorGreenLigh"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <TextView
+        android:id="@+id/textView91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmation"
+        android:textColor="@color/colorGreen"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView51"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065"
+        app:srcCompat="@drawable/backward_arrow" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="148dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="592dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
+        app:srcCompat="@drawable/rectangle1366" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="330dp"
+        android:layout_height="524dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView89"
+        app:layout_constraintVertical_bias="0.619"
+        app:srcCompat="@drawable/path281" />
+
+    <ImageView
+        android:id="@+id/imageView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+        app:layout_constraintEnd_toEndOf="@+id/imageView65"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/imageView65"
+        app:layout_constraintTop_toTopOf="@+id/imageView65"
+        app:layout_constraintVertical_bias="0.21"
+        app:srcCompat="@drawable/checkbox" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+        app:layout_constraintEnd_toEndOf="@+id/imageView65"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toEndOf="@+id/imageView73"
+        app:layout_constraintTop_toBottomOf="@+id/textView100"
+        app:layout_constraintVertical_bias="0.35"
+        app:srcCompat="@drawable/no" />
+
+    <ImageView
+        android:id="@+id/imageView73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+        app:layout_constraintEnd_toEndOf="@+id/imageView65"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="@+id/imageView65"
+        app:layout_constraintTop_toTopOf="@+id/imageView65"
+        app:layout_constraintVertical_bias="0.773"
+        app:srcCompat="@drawable/yes" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etes vous sûre de cette transaction?"
+        android:textColor="@color/colorGreen"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView65"
+        app:layout_constraintEnd_toEndOf="@+id/imageView65"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/imageView65"
+        app:layout_constraintTop_toBottomOf="@+id/imageView71"
+        app:layout_constraintVertical_bias="0.323" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
